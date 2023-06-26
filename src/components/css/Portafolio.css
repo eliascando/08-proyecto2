@@ -1,0 +1,30 @@
+.works{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-item{
+    flex-basis: 30%;
+    flex-grow: 1;
+    margin: 2%;
+}
+.work-item img{
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0px 5px 15px #ddd;
+}
+.categorias{
+    color: gray;
+    margin-top: 25px;
+    display: block;
+}
+.work-item .link{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all 300ms;
+
+}
+.work-item .link:hover{
+    color: #fa4d09;
+}

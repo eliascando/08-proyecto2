@@ -1,0 +1,11 @@
+.footer{
+    min-height: 100px;
+    line-height: 50px;
+    text-align: center;
+    border-top: 2px solid black;
+    font-size: 14px;
+    margin-top: 35px;
+    padding-top: 15px;
+    background-color: aliceblue;
+    color: #444;
+}
