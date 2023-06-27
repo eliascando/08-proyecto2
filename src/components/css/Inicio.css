@@ -15,12 +15,11 @@
 }
 
 .home a{
-    display: flex;
+    margin: 0 auto;
     text-align: center;
     align-items: center;
     justify-content: center;
     width: 25%;
-    margin: 0 auto;
     margin-top: 15px;
     padding: 10px;
     text-decoration: none;
@@ -44,4 +43,7 @@
 }
 .home p{
     color: rbg(98, 97, 97);
+}
+.call-to-action{
+    display: flex;
 }

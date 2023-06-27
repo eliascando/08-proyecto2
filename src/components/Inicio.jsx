@@ -10,16 +10,11 @@ export const Inicio = () => {
       </h1>
       <h2>
         Te ayudo a crear tu sitio web para que tu negocio o proyecto tenga presencia.
-        <Link to="/contacto">Contacta conmigo</Link>
-      </h2>
-
-      <section className="last-works">
-        <h2 className='heading'>Últimos trabajos</h2>
-        <p>Estos son algunos de mis trabajos de desarrollo web.</p>
-        <div className="works">
-        
+        <div className='call-to-action'>
+          <Link to="/contacto">Contacta conmigo</Link>
+          <Link to="/portafolio">Ver mis proyectos</Link>
         </div>
-      </section>
+      </h2>
     </div>
   )
 }
